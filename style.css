@@ -15,6 +15,13 @@
     --btn-blue-active: #88d;
 }
 
+body {
+    background-color: var(--background);
+    color: var(--font);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
 .screen {
     padding: 10px 20px;
     border: 2px var(--border) solid;
@@ -34,6 +41,14 @@
 .screen-current {
   min-height: 64px;
   font-size: 40px;
+}
+
+.btn {
+    padding: 20px;
+    border: 2px var(--border) solid;
+    border-radius: 5px;
+    background-color: var(--btn);
+    font-size: 20px;
 }
 
 .buttons-grid {
@@ -71,3 +86,14 @@ button {
     padding: 20px;
     background-color: var(--calculator);
 }
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+

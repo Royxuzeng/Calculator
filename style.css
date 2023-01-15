@@ -97,3 +97,15 @@ button {
     margin-top: 50px;
 }
 
+.btn:hover {
+    background-color: var(--btn-hover);
+}
+
+.btn-red:hover {
+    background-color: var(--btn-red-hover);
+}
+
+.btn-blue:hover {
+    background-color: var(--btn-blue-hover);
+}
+
